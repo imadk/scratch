@@ -1,7 +1,7 @@
 '''
 Created on 2013-11-09
 
-@author: Imad
+@author: Imad Khoury
 '''
 from __future__ import division
 
