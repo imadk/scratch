@@ -1,4 +1,4 @@
 Scratch
 =======
 
-Some experimental utilities
+Some experimental text-mining utilities
