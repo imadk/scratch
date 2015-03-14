@@ -12,7 +12,6 @@ from collections import OrderedDict
 #import pandas as pd 
 #from sklearn.feature_extraction.text import CountVectorizer         
 
-
 def stop_strip(ss):
     """Strips string ss from stopwords"""
     nltk.data.path.append("/nltk_data/")
@@ -28,8 +27,6 @@ def stop_strip(ss):
     """computes a frequency table for word-tokenized 
     stemmed and stopped strings - (ss is a string)"""
 
-    
-    
 ss, sp = stop_strip("This sentence  has  a bunch of stop words that need to be removed!")
 print ss
 print sp
