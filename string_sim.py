@@ -41,7 +41,7 @@ def sentence_cross_dist(s1, s2, l_weight = 0.15, j_weight = 0.85):
 
 def sentence_sim():
     """Takes two sentences (or texts more generally)
-    and computes their a mixed cross-distance"""
+    and computes a mixed cross-distance"""
     sentence_1 = raw_input ("Enter 1st sentence: ").strip(' \t\n\r')
     sentence_2 = raw_input ("Enter 2nd sentence: ").strip(' \t\n\r')
    
